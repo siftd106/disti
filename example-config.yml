@@ -1,0 +1,16 @@
+
+# disti
+# paths can be absolute or relative to workingDir
+workingDir: "" # project folder to base the dist on (defaults to process.cwd)
+rootDir: "" # root of where to find node_modules (defaults to workingDir). Useful for monorepos
+
+# globs of files to include
+include: []
+
+# globs of files to exclude from the pkg
+# "**/node_modules/**/*" is automatically added to this, since the dependency inspection should find all the necessary node_modules
+exclude: []
+
+### OUTPUT
+distDir: "" # directory you would like the dist to be placed into
+distArchive: "" # archive you would like the dist to be placed into

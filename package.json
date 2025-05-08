@@ -1,0 +1,14 @@
+{
+  "name": "disti",
+  "packageManager": "yarn@3.8.7",
+  "bin": "./bin/cli.js",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.0",
+    "inspectdep": "^0.2.1",
+    "mri": "^1.2.0",
+    "yaml": "^2.7.1"
+  }
+}

@@ -24,7 +24,7 @@ async function doDisti({ workingDir, rootDir, include = [], exclude = [], distDi
     }
     if (distArchive) {
       console.log(`Creating the dist archive: ${distArchive}`);
-      doDistArchive(distInternal, distArchive);
+      await doDistArchive(distInternal, distArchive);
     }
   } catch (err) {
     throw err;

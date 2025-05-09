@@ -1,6 +1,6 @@
 # disti
 
-Create a package for distribution to a server. It will include the specified "include" files, exlcude any "exclude" files using fast-glob patterns, and adds the required node_modules (mimicking --production) into the the distribution. Your choice of either or both an archive (tgz or zip) or directory output.
+Create a package for distribution to a server. It will include the specified "include" files, exclude any "exclude" files using fast-glob patterns, and adds the required node_modules (mimicking --production) into the the distribution. Your choice of either or both an archive (tgz or zip) or directory output.
 
 
 ### Running
